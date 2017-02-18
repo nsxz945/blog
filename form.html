@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+	<title>form</title>
+</head>
+<div class="form">
+	<form action="/getInfo" method="get">
+    <div class="usernmae">
+    <label>姓名：</label>
+    	<input type="usernmae" name="usernmae" placeholder="用户名">
+    </div>	
+    <div class="password">
+    <label>密码：</label>
+    	<input type="password" name="password">
+    </div>	
+    <div class="sex">
+    <label>性别：</label>
+    	<input type="radio" name="sex" value="male">男
+    	<input type="radio" name="sex" value="female">女
+    </div>
+    <div class="sex o">
+     <label>性取向：</label>
+	<input type="radio" name="sex o" value="male">男
+	<input type="radio" name="sex o" value="female">女
+    </div>
+    <div class="hobby">
+    <label>爱好：</label>
+    	<input type="checkbox" name=hobby value="dota">dota
+    	<input type="checkbox" name=hobby value="travel">旅游
+    	<input type="checkbox" name=hobby value="pet">宠物
+    </div>
+    <div class="textarea">
+    	<label>评论：</label>
+    	<textarea name="comment" cols="30" rows="10"></textarea>
+    </div>
+    <div class="car">
+    <label>我的car：</label>
+    	<select name="car">
+    		<option value="BD">本田</option>
+    		<option value="DZ">大众</option>
+    		<option value="BENZ">奔驰</option>
+    	</select>
+    </div>
+	</form>
+</div>
